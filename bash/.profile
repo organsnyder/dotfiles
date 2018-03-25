@@ -21,5 +21,17 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+#################
 # My settings
+#################
+
+# Add mybin directory to path
+if [ -d "$HOME/mybin" ] ; then
+    PATH="$HOME/mybin:$PATH"
+fi
+
+# rbenv
+eval "$(rbenv init -)"
+
+# Other variables
 export EDITOR=/usr/bin/vim
