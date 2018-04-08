@@ -1,5 +1,8 @@
-set tabstop=4
-set shiftwidth=4
-set autoindent
-set smartindent
+" indentation
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
+" syntax higlighting
+syntax on
