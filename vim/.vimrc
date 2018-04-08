@@ -6,3 +6,6 @@ set expandtab
 
 " syntax higlighting
 syntax on
+
+" indentLines customization
+let g:indentLine_char = '⎸'
